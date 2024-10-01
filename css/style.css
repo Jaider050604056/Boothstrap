@@ -17,3 +17,7 @@ body{
 .col-sm-8{
     background-color: rgb(26, 214, 67);
 }
+
+#navbar{
+    position:sticky;
+}
