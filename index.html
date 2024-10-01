@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Inicio modal -->
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+        <div class="modal-content">
+    
+            <!-- Modal Header -->
+            <div class="modal-header">
+            <h4 class="modal-title" style="color: black">Modal Heading</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+    
+            <!-- Modal body -->
+            <div class="modal-body" style="color: black">
+            Hola papu. <br> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima beatae soluta dolorem laborum vero explicabo animi, magnam iure ullam minus illum eligendi fuga harum totam veritatis perspiciatis quae! Nobis?
+            </div>
+    
+            <!-- Modal footer -->
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+    
+        </div>
+        </div>
+    </div>
+
+    <!-- Fin modal -->
+
+    <div class="container-fluid">
+        
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+            <!-- <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button> -->
+            </div>
+            
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/la.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="img/chicago.jpg" alt="Chicago" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="img/ny.jpg" alt="New York" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide4.jpg" alt="New York" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide5.jpg" alt="New York" class="d-block" style="width:100%">
+            </div>
+            <!-- <div class="carousel-item">
+                <video src="img/received_919572915742630.mp4" controls style="width:40%"></video>
+            </div> -->
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        
+        <div class="container-fluid mt-3">
+            <h3>Carousel Example</h3>
+            <p>The following example shows how to create a basic carousel with indicators and controls.</p>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <button type="button" class="btn btn-danger">Eliminar</button>
+        <h2>Container</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas nostrum facere distinctio in aperiam asperiores harum inventore, perspiciatis obcaecati accusantium voluptatum incidunt at cupiditate deserunt labore omnis ducimus eligendi ipsa.</p>
+    </div>
+
+    <div class="container-fluid">
+        <button type="button" class="btn btn-primary">Agregar</button>
+        <h2>Container-fluid</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, hic nobis. Blanditiis delectus, repudiandae cum, non soluta fuga exercitationem ex voluptatem libero aliquid ad molestias quibusdam quis tenetur reprehenderit eligendi!</p>
+        
+        <h2>Dividir nuestra página web</h2>
+
+        <h2>Grid - 12 Columnas</h2>
+
+        <!-- Filas, columnas -->
+
+        <h2>Dividir mi pagina web en dos Columnas -- Row - Filas - col - columnas</h2>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Primera Columna</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus enim necessitatibus, natus provident, consequatur tempora dolores nihil cum accusamus unde harum! Maxime perferendis et reprehenderit, eligendi voluptatem ea eveniet!</p>
+            </div>
+            <div class="col-sm-6" style="background-color: rgb(158, 98, 214);">
+                <h3>Segunda Columna</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consectetur, quam perspiciatis dolorum perferendis doloribus? Assumenda magnam, necessitatibus ducimus eos quis, at corporis mollitia voluptate est minus ipsam nisi dolore?</p>
+            </div>
+        </div>
+        <br><br>
+
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Primera Columna</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus enim necessitatibus, natus provident, consequatur tempora dolores nihil cum accusamus unde harum! Maxime perferendis et reprehenderit, eligendi voluptatem ea eveniet!</p>
+
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                    Open modal
+                </button>
+
+            </div>
+            <div class="col-sm-4">
+                <h3>Segunda Columna</h3>
+                <button type="button" class="btn btn-secondary">Agregar</button>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consectetur, quam perspiciatis dolorum perferendis doloribus? Assumenda magnam, necessitatibus ducimus eos quis, at corporis mollitia voluptate est minus ipsam nisi dolore?</p>
+            </div>
+            <div class="col-sm-2">
+                <h3>Tercera Columna</h3>
+                <button type="button" class="btn btn-danger">Eliminar</button>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consectetur, quam perspiciatis dolorum perferendis doloribus? Assumenda magnam, necessitatibus ducimus eos quis, at corporis mollitia voluptate est minus ipsam nisi dolore?</p>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-sm-8">
+                <h3>Cuarta Columna</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consectetur, quam perspiciatis dolorum perferendis doloribus? Assumenda magnam, necessitatibus ducimus eos quis, at corporis mollitia voluptate est minus ipsam nisi dolore?</p>
+           </div>
+           <div class="col-sm-4" style="background-color: rgb(158, 98, 214);">
+            <h3>Quinta Columna</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consectetur, quam perspiciatis dolorum perferendis doloribus? Assumenda magnam, necessitatibus ducimus eos quis, at corporis mollitia voluptate est minus ipsam nisi dolore?</p>
+       </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
