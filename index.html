@@ -9,6 +9,25 @@
 </head>
 <body>
 
+    <!-- Inicio offcamvas -->
+    <div class="offcanvas offcanvas-start" id="demo">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title">Heading</h1>
+        </div>
+        <div class="offcanvas-body">
+          <p>Facebook.</p>
+          <p>Instagram.</p>
+          <p>Youtube.</p>
+          <button class="btn btn-secondary" type="button">Mostrar mas</button>
+        </div>
+      </div>
+      
+      <div class="container-fluid mt-3">
+        <h3>Offcanvas Sidebar</h3>
+        <p>Offcanvas is similar to modals, except that it is often used as a sidebar.</p>
+      </div>
+    <!-- Fin offcanvas -->
+
     <!-- Nav bar -->
     <!-- style="background-image: linear-gradient(red, yellow,green); -->
 
@@ -63,6 +82,31 @@
             <!-- Modal footer -->
             <div class="modal-footer">
             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+    
+        </div>
+        </div>
+    </div>
+
+    <div class="modal" id="ModalJaider">
+        <div class="modal-dialog">
+        <div class="modal-content">
+    
+            <!-- Modal Header -->
+            <div class="modal-header">
+            <h4 class="modal-title" style="color: black">Soy Jaider</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+    
+            <!-- Modal body -->
+            <div class="modal-body" style="color: black">
+            Hago dibujos a veces <br> <br> <img src="img/inktober 1 tea.png" alt="dibujo" width="400px">
+            <br> <br> Este lo hice hace unos dias.
+            </div>
+    
+            <!-- Modal footer -->
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
             </div>
     
         </div>
@@ -125,11 +169,33 @@
 
     <div class="container">
         <button type="button" class="btn btn-danger">Eliminar</button>
+        <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+            Mostrar Offcanvas
+        </button>
         <h2>Container</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas nostrum facere distinctio in aperiam asperiores harum inventore, perspiciatis obcaecati accusantium voluptatum incidunt at cupiditate deserunt labore omnis ducimus eligendi ipsa.</p>
     </div>
 
     <div class="container-fluid">
+
+        <!-- Inicio de Card image -->
+
+        <h2>Card Image</h2>
+        <p>Image at the top (card-img-top):</p>
+        <div class="card" style="width:300px">
+            <img class="card-img-top" src="img/Captura de pantalla 2024-10-04 092422.png"Card image" style="width:100%">
+            <div class="card-body">
+            <h4 class="card-title">Jaider Stiveen Sanchez Arciniegas</h4>
+            <p class="card-text">Estudiante de ingenieria de sistemas y dibujante amateur</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalJaider">
+                Ver más
+            </button>
+            </div>
+        </div>
+        <br>
+
+        <!-- Fin de card image-->
+
         <button type="button" class="btn btn-primary">Agregar</button>
         <h2>Container-fluid</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, hic nobis. Blanditiis delectus, repudiandae cum, non soluta fuga exercitationem ex voluptatem libero aliquid ad molestias quibusdam quis tenetur reprehenderit eligendi!</p>
@@ -190,6 +256,6 @@
 
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootsxtrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
