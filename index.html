@@ -10,7 +10,7 @@
 <body>
 
     <!-- Inicio offcamvas -->
-    <div class="offcanvas offcanvas-start" id="demo">
+    <div class="offcanvas offcanvas-start" id="demo2">
         <div class="offcanvas-header">
           <h1 class="offcanvas-title">Heading</h1>
         </div>
@@ -96,7 +96,7 @@
     
             <!-- Modal body -->
             <div class="modal-body" style="color: black">
-            Hago dibujos a veces <br> <br> <img src="img/inktober 1 tea.png" alt="dibujo" width="400px">
+            Hago dibujos a veces <br> <br> <img src="img/inktober 1 tea.png" alt="dibujo" width="100%">
             <br> <br> Este lo hice hace unos dias.
             </div>
     
@@ -154,18 +154,13 @@
             <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
             <span class="carousel-control-next-icon"></span>
             </button>
-        </div>
-        
-        <div class="container-fluid mt-3">
-            <h3>Carousel Example</h3>
-            <p>The following example shows how to create a basic carousel with indicators and controls.</p>
-        </div>
+        </div> <br> <br>
 
     </div>
 
     <div class="container">
         <button type="button" class="btn btn-danger">Eliminar</button>
-        <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+        <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo2">
             Mostrar Offcanvas
         </button>
         <h2>Container</h2>
@@ -176,7 +171,9 @@
 
         <!-- Inicio de Card image -->
 
-        <div class="card" style="width:30%">
+        <h2>Card Image</h2>
+        <p>Image at the top (card-img-top):</p>
+        <div class="card" style="width:100%">
             <img class="card-img-top" src="img/Captura de pantalla 2024-10-04 092422.png"Card image" style="width:100%">
             <div class="card-body">
             <h4 class="card-title">Jaider Stiveen Sanchez Arciniegas</h4>
@@ -194,6 +191,114 @@
         <h2>Container-fluid</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, hic nobis. Blanditiis delectus, repudiandae cum, non soluta fuga exercitationem ex voluptatem libero aliquid ad molestias quibusdam quis tenetur reprehenderit eligendi!</p>
         
+        <!-- Inicio acordeon -->
+
+        <div class="container mt-3">
+            <h2>Accordion Example</h2>
+            <p><strong>Note:</strong> The <strong>data-bs-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                    Entrada #1
+                  </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                    Entrada #2
+                </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                    Entrada #3
+                  </a>
+                </div>
+                <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                        Entrada #4
+                    </a>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+                        Entrada #5
+                  </a>
+                </div>
+                <div id="collapseFive" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- fin acordeon -->
+          <br><br>
+        <!-- Inicio de sesiones -->
+
+          <div class="container-fluid">
+            <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+                
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                  <div class="container-fluid">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#section1">Section 1</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#section2">Section 2</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#section3">Section 3</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                
+                <div id="section1" class="container-fluid bg-success text-white" style="padding:100px 20px;" >
+                  <h1>Section 1</h1>
+                  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                </div>
+                
+                <div id="section2" class="container-fluid bg-warning" style="padding:100px 20px;">
+                  <h1>Section 2</h1>
+                  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                </div>
+                
+                <div id="section3" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+                  <h1>Section 3</h1>
+                  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                </div>
+                
+          </div>
+
+        <!-- Fin de sesiones -->
+
         <h2>Dividir nuestra página web</h2>
 
         <h2>Grid - 12 Columnas</h2>
@@ -250,6 +355,6 @@
 
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootsxtrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
