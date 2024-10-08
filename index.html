@@ -170,9 +170,7 @@
     <div class="container-fluid">
 
         <!-- Inicio de Card image -->
-
-        <h2>Card Image</h2>
-        <p>Image at the top (card-img-top):</p>
+         
         <div class="card" style="width:100%">
             <img class="card-img-top" src="img/Captura de pantalla 2024-10-04 092422.png"Card image" style="width:100%">
             <div class="card-body">
@@ -194,22 +192,21 @@
         <!-- Inicio acordeon -->
 
         <div class="container mt-3">
-            <h2>Accordion Example</h2>
-            <p><strong>Note:</strong> The <strong>data-bs-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
             <div id="accordion">
-              <div class="card">
+              <div class="card" style="background-color: rgb(14, 206, 206);">
                 <div class="card-header">
                   <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
                     Entrada #1
                   </a>
                 </div>
-                <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-                  <div class="card-body">
+                <div id="collapseOne" class="collapse show" data-bs-parent="#accordion" style="background-color: aqua;">
+                  <div class="card-body" style="text-align: center;">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </div>
+                    <br><br><img src="img/inktober 5 lamp.png" alt="lampara" width="50%">
+                    </div>
                 </div>
               </div>
-              <div class="card">
+              <div class="card" style="background-color: rgb(172, 45, 231);">
                 <div class="card-header">
                   <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
                     Entrada #2
@@ -221,7 +218,7 @@
                   </div>
                 </div>
               </div>
-              <div class="card">
+              <div class="card" style="background-color: rgb(61, 72, 226);">
                 <div class="card-header">
                   <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
                     Entrada #3
@@ -232,19 +229,24 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   </div>
                 </div>
-                <div class="card">
+                <div class="card" style="background-color: rgb(255, 136, 0);">
                     <div class="card-header">
                       <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
                         Entrada #4
                     </a>
                 </div>
-                <div class="card">
+                <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                  </div>
+                <div class="card" style="background-color: rgb(12, 202, 59);">
                   <div class="card-header">
                     <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
                         Entrada #5
                   </a>
                 </div>
-                <div id="collapseFive" class="collapse show" data-bs-parent="#accordion">
+                <div id="collapseFive" class="collapse show" data-bs-parent="#accordion" style="background-color: rgb(0, 255, 64);">
                     <div class="card-body">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </div>
@@ -281,6 +283,7 @@
                   <h1>Section 1</h1>
                   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
                   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                  <br><br><img src="img/inktober 4 vintage.png" alt="neco arc" width="50%">
                 </div>
                 
                 <div id="section2" class="container-fluid bg-warning" style="padding:100px 20px;">
